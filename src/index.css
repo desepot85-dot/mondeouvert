@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Cinzel', 'Cormorant Garamond', Georgia, serif;
+    --font-serif: 'Cormorant Garamond', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  html,
+  body,
+  #root {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #070d19;
+    font-family: var(--font-sans);
+    user-select: none;
+  }
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-serif-morocco {
+  font-family: var(--font-serif);
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Gold carved title text shadow */
+.title-gold-shadow {
+  text-shadow:
+    0 2px 14px rgba(0, 0, 0, 0.85),
+    0 0 28px rgba(212, 169, 89, 0.35);
+}
+
+/* Active emerald-gold Moroccan menu panel (no backdrop-filter over WebGL) */
+.moroccan-btn-active {
+  background: linear-gradient(
+    90deg,
+    rgba(22, 74, 58, 0.92) 0%,
+    rgba(19, 54, 47, 0.88) 55%,
+    rgba(14, 29, 39, 0.82) 100%
+  );
+  border: 1px solid rgba(214, 181, 114, 0.88);
+  box-shadow:
+    inset 0 1px 0 rgba(167, 243, 208, 0.45),
+    inset 0 -1px 0 rgba(214, 181, 114, 0.35),
+    0 6px 24px rgba(0, 0, 0, 0.55);
+}
+
+.moroccan-btn-idle {
+  background: linear-gradient(
+    90deg,
+    rgba(12, 22, 34, 0.86) 0%,
+    rgba(13, 23, 34, 0.76) 100%
+  );
+  border: 1px solid rgba(196, 167, 108, 0.42);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+}
+
+.moroccan-btn-idle:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(20, 56, 48, 0.9) 0%,
+    rgba(15, 32, 41, 0.84) 100%
+  );
+  border-color: rgba(218, 185, 117, 0.78);
+}
+
+.moroccan-card {
+  background: rgba(11, 19, 31, 0.91);
+  border: 1px solid rgba(203, 170, 104, 0.52);
+  box-shadow:
+    0 16px 48px rgba(0, 0, 0, 0.68),
+    inset 0 1px 0 rgba(235, 209, 151, 0.16);
+}
+
+.hud-text-shadow {
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.92), 0 0 2px rgba(0, 0, 0, 0.95);
+}
+
+.keycap-badge {
+  background: rgba(12, 20, 32, 0.86);
+  border: 1px solid rgba(214, 181, 114, 0.62);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}

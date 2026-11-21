@@ -1,0 +1,13 @@
+{
+  "generatedAt": "2026-11-21T00:16:24.008Z",
+  "prompt": "Photorealistic historic Moroccan Al-Qarawiyyin mosque courtyard in Fes at night, wide eye-level view. Intricate geometric zellige tiled floor with subtle wet reflections, an octagonal marble fountain glowing softly in the center, a large dark reflecting pool on the left bordered by date palms and orange trees, ornate white Moorish arches with green glazed tile roofs on the right, and a towering carved stone minaret illuminated with warm golden lantern light against a deep starry indigo sky with a single crescent moon and distant misty Atlas mountains. Empty courtyard, no people, no text, cinematic realistic lighting, ultra-detailed architecture.",
+  "variant": "draft",
+  "bytes": 8535355,
+  "operations": {
+    "atlasTextToImage": "8a9e68e4e6034366b6212202f2d39488",
+    "images2PosedRGBD": "23084010c9104cc69527eef58cf26ef6",
+    "atlasGenerate": "2feff189f81045718d1c9378d2adbff9",
+    "posedImages2Splats": "e581173a2edf4481bd823d0143051f62"
+  },
+  "splatAssetId": "asset_19e56e8660d17cdbd71ca318634da818"
+}

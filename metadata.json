@@ -1,0 +1,6 @@
+{
+  "name": "Nour Al-Maghrib",
+  "description": "Prototype 3D ultra-réaliste de la cour de la mosquée Al-Qarawiyyin à Fès de nuit, propulsé par Three.js, SparkJS et l'API World Labs Atlas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
